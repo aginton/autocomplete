@@ -59,3 +59,5 @@ Inside the tests/ folder is the file "Aword.csv". This file contains all the wor
 Running "python test_solution.py" verifies that our model returns the same results as for our brute force class, using the first 500 words from the "Aword.csv" file, and generatting a list of partly random strings and partly existing words to use as input. 
 
 To run this test, simply call "python test_solution.py". 
+
+![](screenshots/test_solution.PNG)
