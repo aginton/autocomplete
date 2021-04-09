@@ -26,6 +26,12 @@ For example:
 """
 
 
+class Node():
+    def __init__(self, val, count = -1, parent = None):
+        self.val = val
+        self.count = count
+        self.parent = parent
+        self.children = {}
 
 
 class AutoCompleteIndex(object):
