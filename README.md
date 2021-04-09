@@ -12,11 +12,11 @@ Basic program can be run by calling "python task.py".
 
 <h1>test rest api</h1>
 <h2>Step 1. Start server using flask </h2>
-Make sure flask is installed.
-Before starting server, must activate virtual environment. To do so, run "venv\Scripts\activate".
-Then, simply call "python api.py":
-![Test Image 1](screenshots/test_api.png)
+Make sure flask is installed. Before starting server, must activate virtual environment. To do so, run "venv\Scripts\activate". Then, simply call "python api.py"
+<br><br>
+<img src="https://github.com/aginton/autocomplete/blob/9bba1245ea274af516f3edef3f4c753c5d1c5bca/screenshots/start_flask.png">
 
+![](screenshots/test_api.png)
 <h3>Option 1: test using test_api.py</h3>
 With server running, navigate to tests folder, and then simply run "python test_api.py":
 
