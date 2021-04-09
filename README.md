@@ -15,7 +15,7 @@ Basic program can be run by calling "python task.py".
 Make sure flask is installed.
 Before starting server, must activate virtual environment. To do so, run "venv\Scripts\activate".
 Then, simply call "python api.py":
-![Test Image 1](screenshots/test_api.png)
+![Test Image 1](https://github.com/aginton/autocomplete/blob/48cc8fbd349c3c41ec286062630c98c0717343b4/screenshots/test_api.png)
 
 <h3>Option 1: test using test_api.py</h3>
 With server running, navigate to tests folder, and then simply run "python test_api.py":
