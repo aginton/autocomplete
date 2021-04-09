@@ -62,8 +62,8 @@ def compare_autocompletesearch_against_brute_force_for_word(ac_search, ac_brute,
     for i in range(len(word)):
         ac_search_res = ac_search.type_character(word[i])
         brute_force_res = ac_brute.get_predictions(word[:i+1])
-        print("ac_search_res when calling type_character(%s): %s" % (word[i], str(ac_search_res)))
-        print("brute_force_res on prefix %s: %s\n" % (word[:i+1], str(brute_force_res)))
+        # print("ac_search_res when calling type_character(%s): %s" % (word[i], str(ac_search_res)))
+        # print("brute_force_res on prefix %s: %s\n" % (word[:i+1], str(brute_force_res)))
         assert ac_search_res == brute_force_res
     ac_search.set_buffer("")
     
