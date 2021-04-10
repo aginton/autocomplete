@@ -7,10 +7,10 @@ The basic autocomplete can be run by calling "python task.py".
 To run other programs, make sure all requirements are installed. Can easily do so by calling
 "pip install -r requirements.txt"
 
-<h1>basic use</h1>
+<h1>Basic Solution</h1>
 Basic program can be run by calling "python task.py".
 
-<h2>Test solution</h2>
+<h2>testing solution</h2>
 We can check that our model works by running it against a brute force class; the brute force class also gets predictions for a given prefix, but it does so by finding all words from a list of options that have the given prefix, then sorting them by value, and then returning the top k.
 
 Inside the tests/ folder is the file "Aword.csv". This file contains all the words starting with the letter "a", with random numbers representing their value next to them. 
@@ -21,8 +21,8 @@ To run this test, simply call "python test_solution.py".
 ![](screenshots/test_solution.PNG)
 
 
-<h2>test rest api</h2>
-Before using api, must open up flask app on local server.
+<h2>Using REST api</h2>
+Before using api, must have flask app running on local server.
 
 1. Make sure flask is installed. 
 2. Activate virtual environment by running "venv\Scripts\activate". 
