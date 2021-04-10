@@ -18,7 +18,7 @@ Running "python test_solution.py" verifies that our model returns the same resul
 
 To run this test, simply call "python test_solution.py". 
 
-![](screenshots/test_solution.PNG)
+![](screenshots/test_solution.png)
 
 
 <h2>Using REST api</h2>
